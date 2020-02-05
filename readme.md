@@ -1,7 +1,7 @@
 Returns first changeset where specified testfixture is red. 
 Implicitly script assumes test is green on current head.
 
-find.cmd [PathToRepo] [ProjectContainingTestFixture] [TestFixture] [KnownGreenChangeSet]
+find.cmd [PathToRepo] [ProjectContainingTestFixture] [TestFixture] [FirstKnownGreenChangeSet]
 
 Eg
 ```
