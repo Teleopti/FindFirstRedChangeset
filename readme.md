@@ -1,4 +1,4 @@
-Returns changeset where specified test fixture turned red
+Returns the changeset where a specified test fixture turned red
 (implicitly script assumes test is red on current head).
 
 find.cmd [PathToRepo] [ProjectContainingTestFixture] [TestFixture] [FirstKnownGreenChangeSet]
